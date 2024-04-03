@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3403740B2B675C0800DD23AD /* AltitudeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3403740A2B675C0800DD23AD /* AltitudeView.swift */; };
+		3403740D2B675C7300DD23AD /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3403740C2B675C7300DD23AD /* ViewModel.swift */; };
+		3403740F2B675DED00DD23AD /* SpeedAndCoordinatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3403740E2B675DED00DD23AD /* SpeedAndCoordinatesView.swift */; };
+		348F24C32B6224DB00E8FB36 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348F24C22B6224DB00E8FB36 /* RowView.swift */; };
+		34D3622E2B62092500C2EE0C /* AltitudeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D3622D2B62092500C2EE0C /* AltitudeApp.swift */; };
+		34D362302B62092500C2EE0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D3622F2B62092500C2EE0C /* ContentView.swift */; };
+		34D362322B62092700C2EE0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34D362312B62092700C2EE0C /* Assets.xcassets */; };
+		34D362352B62092700C2EE0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34D362342B62092700C2EE0C /* Preview Assets.xcassets */; };
+		34D690CB2B636C0A00A631AD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D690CA2B636C0A00A631AD /* HomeView.swift */; };
+		34F129B42B688950005BF40D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F129B32B688950005BF40D /* Model.swift */; };
+		34F349882BBAF63B00E29F40 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F349872BBAF63B00E29F40 /* TabBarView.swift */; };
+		34F3498A2BBAF72A00E29F40 /* BarometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F349892BBAF72A00E29F40 /* BarometerView.swift */; };
+		34F3498C2BBAF73C00E29F40 /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F3498B2BBAF73B00E29F40 /* DataView.swift */; };
+		34F3498F2BBAFFBE00E29F40 /* AltitudeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F3498E2BBAFFBE00E29F40 /* AltitudeViewModel.swift */; };
+		34F349912BBB927D00E29F40 /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F349902BBB927D00E29F40 /* DataViewModel.swift */; };
+		34F349932BBB968500E29F40 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F349922BBB968500E29F40 /* WeatherModel.swift */; };
+		34F349952BBBD4BD00E29F40 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F349942BBBD4BD00E29F40 /* InfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3403740A2B675C0800DD23AD /* AltitudeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltitudeView.swift; sourceTree = "<group>"; };
+		3403740C2B675C7300DD23AD /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		3403740E2B675DED00DD23AD /* SpeedAndCoordinatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedAndCoordinatesView.swift; sourceTree = "<group>"; };
+		348F24C22B6224DB00E8FB36 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		34D3622A2B62092500C2EE0C /* Altitude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Altitude.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D3622D2B62092500C2EE0C /* AltitudeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltitudeApp.swift; sourceTree = "<group>"; };
+		34D3622F2B62092500C2EE0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		34D362312B62092700C2EE0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34D362342B62092700C2EE0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		34D690CA2B636C0A00A631AD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		34F129B32B688950005BF40D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		34F349872BBAF63B00E29F40 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		34F349892BBAF72A00E29F40 /* BarometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarometerView.swift; sourceTree = "<group>"; };
+		34F3498B2BBAF73B00E29F40 /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
+		34F3498E2BBAFFBE00E29F40 /* AltitudeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltitudeViewModel.swift; sourceTree = "<group>"; };
+		34F349902BBB927D00E29F40 /* DataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModel.swift; sourceTree = "<group>"; };
+		34F349922BBB968500E29F40 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		34F349942BBBD4BD00E29F40 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34D362272B62092500C2EE0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		340374032B67459800DD23AD /* ViewsDidNotUse */ = {
+			isa = PBXGroup;
+			children = (
+				348F24C22B6224DB00E8FB36 /* RowView.swift */,
+				34D3622F2B62092500C2EE0C /* ContentView.swift */,
+				3403740C2B675C7300DD23AD /* ViewModel.swift */,
+				34D690CA2B636C0A00A631AD /* HomeView.swift */,
+				3403740E2B675DED00DD23AD /* SpeedAndCoordinatesView.swift */,
+			);
+			path = ViewsDidNotUse;
+			sourceTree = "<group>";
+		};
+		340374072B674ABD00DD23AD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				34F3498E2BBAFFBE00E29F40 /* AltitudeViewModel.swift */,
+				34F349902BBB927D00E29F40 /* DataViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		34D362212B62092500C2EE0C = {
+			isa = PBXGroup;
+			children = (
+				34D3622C2B62092500C2EE0C /* Altitude */,
+				34D3622B2B62092500C2EE0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34D3622B2B62092500C2EE0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34D3622A2B62092500C2EE0C /* Altitude.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34D3622C2B62092500C2EE0C /* Altitude */ = {
+			isa = PBXGroup;
+			children = (
+				34D3622D2B62092500C2EE0C /* AltitudeApp.swift */,
+				340374032B67459800DD23AD /* ViewsDidNotUse */,
+				34F129B22B68893F005BF40D /* Model */,
+				34D690C62B63675300A631AD /* Views */,
+				340374072B674ABD00DD23AD /* ViewModel */,
+				34D362312B62092700C2EE0C /* Assets.xcassets */,
+				34D362332B62092700C2EE0C /* Preview Content */,
+			);
+			path = Altitude;
+			sourceTree = "<group>";
+		};
+		34D362332B62092700C2EE0C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				34D362342B62092700C2EE0C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		34D690C62B63675300A631AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				34F349872BBAF63B00E29F40 /* TabBarView.swift */,
+				34F3498D2BBAF7EE00E29F40 /* TabViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		34F129B22B68893F005BF40D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				34F129B32B688950005BF40D /* Model.swift */,
+				34F349922BBB968500E29F40 /* WeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		34F3498D2BBAF7EE00E29F40 /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				3403740A2B675C0800DD23AD /* AltitudeView.swift */,
+				34F349892BBAF72A00E29F40 /* BarometerView.swift */,
+				34F3498B2BBAF73B00E29F40 /* DataView.swift */,
+				34F349942BBBD4BD00E29F40 /* InfoView.swift */,
+			);
+			path = TabViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34D362292B62092500C2EE0C /* Altitude */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34D362382B62092700C2EE0C /* Build configuration list for PBXNativeTarget "Altitude" */;
+			buildPhases = (
+				34D362262B62092500C2EE0C /* Sources */,
+				34D362272B62092500C2EE0C /* Frameworks */,
+				34D362282B62092500C2EE0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Altitude;
+			productName = Altitude;
+			productReference = 34D3622A2B62092500C2EE0C /* Altitude.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34D362222B62092500C2EE0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					34D362292B62092500C2EE0C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 34D362252B62092500C2EE0C /* Build configuration list for PBXProject "Altitude" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34D362212B62092500C2EE0C;
+			productRefGroup = 34D3622B2B62092500C2EE0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34D362292B62092500C2EE0C /* Altitude */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34D362282B62092500C2EE0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D362352B62092700C2EE0C /* Preview Assets.xcassets in Resources */,
+				34D362322B62092700C2EE0C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34D362262B62092500C2EE0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F129B42B688950005BF40D /* Model.swift in Sources */,
+				34F349882BBAF63B00E29F40 /* TabBarView.swift in Sources */,
+				3403740F2B675DED00DD23AD /* SpeedAndCoordinatesView.swift in Sources */,
+				348F24C32B6224DB00E8FB36 /* RowView.swift in Sources */,
+				34D362302B62092500C2EE0C /* ContentView.swift in Sources */,
+				3403740B2B675C0800DD23AD /* AltitudeView.swift in Sources */,
+				34D3622E2B62092500C2EE0C /* AltitudeApp.swift in Sources */,
+				3403740D2B675C7300DD23AD /* ViewModel.swift in Sources */,
+				34F3498C2BBAF73C00E29F40 /* DataView.swift in Sources */,
+				34F3498A2BBAF72A00E29F40 /* BarometerView.swift in Sources */,
+				34F349932BBB968500E29F40 /* WeatherModel.swift in Sources */,
+				34F3498F2BBAFFBE00E29F40 /* AltitudeViewModel.swift in Sources */,
+				34D690CB2B636C0A00A631AD /* HomeView.swift in Sources */,
+				34F349952BBBD4BD00E29F40 /* InfoView.swift in Sources */,
+				34F349912BBB927D00E29F40 /* DataViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		34D362362B62092700C2EE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34D362372B62092700C2EE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34D362392B62092700C2EE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Altitude/Preview Content\"";
+				DEVELOPMENT_TEAM = 8DAPCVS544;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App needs access to location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App needs access to location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilfreebats.Altitude;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34D3623A2B62092700C2EE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Altitude/Preview Content\"";
+				DEVELOPMENT_TEAM = 8DAPCVS544;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App needs access to location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App needs access to location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilfreebats.Altitude;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34D362252B62092500C2EE0C /* Build configuration list for PBXProject "Altitude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D362362B62092700C2EE0C /* Debug */,
+				34D362372B62092700C2EE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34D362382B62092700C2EE0C /* Build configuration list for PBXNativeTarget "Altitude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D362392B62092700C2EE0C /* Debug */,
+				34D3623A2B62092700C2EE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34D362222B62092500C2EE0C /* Project object */;
+}
