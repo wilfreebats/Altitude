@@ -35,7 +35,7 @@ struct AltitudeView: View {
                 weatherData.getCoordinates()
             }
             
-            .task {
+            .refreshable {
                 do {
                     try await weatherData.fetchWeatherData(latitude: weatherData.coordinates!.lat, longitude: weatherData.coordinates!.long)
                 } catch {
