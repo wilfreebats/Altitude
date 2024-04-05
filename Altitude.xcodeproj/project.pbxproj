@@ -8,14 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3403740B2B675C0800DD23AD /* AltitudeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3403740A2B675C0800DD23AD /* AltitudeView.swift */; };
-		3403740D2B675C7300DD23AD /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3403740C2B675C7300DD23AD /* ViewModel.swift */; };
-		3403740F2B675DED00DD23AD /* SpeedAndCoordinatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3403740E2B675DED00DD23AD /* SpeedAndCoordinatesView.swift */; };
-		348F24C32B6224DB00E8FB36 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348F24C22B6224DB00E8FB36 /* RowView.swift */; };
+		34A6AAD22BBFBAE600532FAF /* Readme in Resources */ = {isa = PBXBuildFile; fileRef = 34A6AAD12BBFBAE600532FAF /* Readme */; };
 		34D3622E2B62092500C2EE0C /* AltitudeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D3622D2B62092500C2EE0C /* AltitudeApp.swift */; };
-		34D362302B62092500C2EE0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D3622F2B62092500C2EE0C /* ContentView.swift */; };
 		34D362322B62092700C2EE0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34D362312B62092700C2EE0C /* Assets.xcassets */; };
 		34D362352B62092700C2EE0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34D362342B62092700C2EE0C /* Preview Assets.xcassets */; };
-		34D690CB2B636C0A00A631AD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D690CA2B636C0A00A631AD /* HomeView.swift */; };
 		34F129B42B688950005BF40D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F129B32B688950005BF40D /* Model.swift */; };
 		34F349882BBAF63B00E29F40 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F349872BBAF63B00E29F40 /* TabBarView.swift */; };
 		34F3498A2BBAF72A00E29F40 /* BarometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F349892BBAF72A00E29F40 /* BarometerView.swift */; };
@@ -28,15 +24,11 @@
 
 /* Begin PBXFileReference section */
 		3403740A2B675C0800DD23AD /* AltitudeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltitudeView.swift; sourceTree = "<group>"; };
-		3403740C2B675C7300DD23AD /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		3403740E2B675DED00DD23AD /* SpeedAndCoordinatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedAndCoordinatesView.swift; sourceTree = "<group>"; };
-		348F24C22B6224DB00E8FB36 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		34A6AAD12BBFBAE600532FAF /* Readme */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
 		34D3622A2B62092500C2EE0C /* Altitude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Altitude.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D3622D2B62092500C2EE0C /* AltitudeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltitudeApp.swift; sourceTree = "<group>"; };
-		34D3622F2B62092500C2EE0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34D362312B62092700C2EE0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34D362342B62092700C2EE0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		34D690CA2B636C0A00A631AD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		34F129B32B688950005BF40D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		34F349872BBAF63B00E29F40 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		34F349892BBAF72A00E29F40 /* BarometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarometerView.swift; sourceTree = "<group>"; };
@@ -58,18 +50,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		340374032B67459800DD23AD /* ViewsDidNotUse */ = {
-			isa = PBXGroup;
-			children = (
-				348F24C22B6224DB00E8FB36 /* RowView.swift */,
-				34D3622F2B62092500C2EE0C /* ContentView.swift */,
-				3403740C2B675C7300DD23AD /* ViewModel.swift */,
-				34D690CA2B636C0A00A631AD /* HomeView.swift */,
-				3403740E2B675DED00DD23AD /* SpeedAndCoordinatesView.swift */,
-			);
-			path = ViewsDidNotUse;
-			sourceTree = "<group>";
-		};
 		340374072B674ABD00DD23AD /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,7 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				34D3622D2B62092500C2EE0C /* AltitudeApp.swift */,
-				340374032B67459800DD23AD /* ViewsDidNotUse */,
+				34A6AAD12BBFBAE600532FAF /* Readme */,
 				34F129B22B68893F005BF40D /* Model */,
 				34D690C62B63675300A631AD /* Views */,
 				340374072B674ABD00DD23AD /* ViewModel */,
@@ -205,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34D362352B62092700C2EE0C /* Preview Assets.xcassets in Resources */,
+				34A6AAD22BBFBAE600532FAF /* Readme in Resources */,
 				34D362322B62092700C2EE0C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,17 +199,12 @@
 			files = (
 				34F129B42B688950005BF40D /* Model.swift in Sources */,
 				34F349882BBAF63B00E29F40 /* TabBarView.swift in Sources */,
-				3403740F2B675DED00DD23AD /* SpeedAndCoordinatesView.swift in Sources */,
-				348F24C32B6224DB00E8FB36 /* RowView.swift in Sources */,
-				34D362302B62092500C2EE0C /* ContentView.swift in Sources */,
 				3403740B2B675C0800DD23AD /* AltitudeView.swift in Sources */,
 				34D3622E2B62092500C2EE0C /* AltitudeApp.swift in Sources */,
-				3403740D2B675C7300DD23AD /* ViewModel.swift in Sources */,
 				34F3498C2BBAF73C00E29F40 /* DataView.swift in Sources */,
 				34F3498A2BBAF72A00E29F40 /* BarometerView.swift in Sources */,
 				34F349932BBB968500E29F40 /* WeatherModel.swift in Sources */,
 				34F3498F2BBAFFBE00E29F40 /* AltitudeViewModel.swift in Sources */,
-				34D690CB2B636C0A00A631AD /* HomeView.swift in Sources */,
 				34F349952BBBD4BD00E29F40 /* InfoView.swift in Sources */,
 				34F349912BBB927D00E29F40 /* DataViewModel.swift in Sources */,
 			);
@@ -368,8 +344,8 @@
 				DEVELOPMENT_TEAM = 8DAPCVS544;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App needs access to location";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App needs access to location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need to access your location.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to access your location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -402,8 +378,8 @@
 				DEVELOPMENT_TEAM = 8DAPCVS544;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App needs access to location";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App needs access to location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need to access your location.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to access your location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

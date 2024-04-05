@@ -17,6 +17,7 @@ struct AltitudeApp: App {
         WindowGroup {
             TabBarView()
                 .preferredColorScheme(.dark)
+            
                 .environmentObject(dataProvider)
                 .environmentObject(weatherData)
         }

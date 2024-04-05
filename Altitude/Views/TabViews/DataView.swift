@@ -18,7 +18,7 @@ struct DataView: View {
             ScrollView {
                 VStack(alignment:.center) {
                     HStack(alignment: .center) {
-                        Text("\(vm.weather?.main.grndLevel ?? 0)")
+                        Text("\(vm.HectopascalFormatter(data: dependency.baromemter?.barometer ?? 0))")
                             .font(.system(size: 50))
                             .fontWeight(.bold)
                         

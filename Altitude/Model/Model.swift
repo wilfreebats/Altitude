@@ -31,4 +31,3 @@ struct CoordinatesModel {
     
     static var sampleData = CoordinatesModel(lat: 155, long: 155)
 }
-

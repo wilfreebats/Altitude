@@ -18,7 +18,10 @@ class DataViewModel: ObservableObject {
     let apiKey = "https://api.openweathermap.org/data/2.5/weather?appid=b2cd3504360beae095f4fa061a4a9092&units=metric"
     
     func fetchWeatherData(latitude: Double, longitude: Double) async throws {
+        // Phone location urlString
         let urlString = "\(apiKey)&lat=\(latitude)&lon=\(longitude)"
+        
+        // FOR FIXED LOCATION: Zocca, IT urlString
         //let urlString = "https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=b2cd3504360beae095f4fa061a4a9092&units=metric"
         let url = URL(string: urlString)
         let (data, _) = try await URLSession.shared.data(from: url!)
@@ -30,7 +33,7 @@ class DataViewModel: ObservableObject {
             self.weather = decoder
         }
     }
-    
+
     
     func getCoordinates() {
         locationManager.requestWhenInUseAuthorization()
@@ -45,6 +48,7 @@ class DataViewModel: ObservableObject {
             print("DEBUG: COORDINATES .......")
             print("Latitude: \(lat)")
             print("Longitude: \(long)")
+            
         }
     }
     
@@ -52,8 +56,14 @@ class DataViewModel: ObservableObject {
         var result: Int {
             return data / 1000
         }
-        
         return String(result)
+    }
+    
+    func HectopascalFormatter(data: Double) -> String{
+        var hectoPascal: Double {
+            return data * 10
+        }
+        return String(format: "%.0f", hectoPascal)
     }
     
     
